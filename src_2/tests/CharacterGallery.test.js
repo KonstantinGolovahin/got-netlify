@@ -1,4 +1,4 @@
-import CharacterGallery from '../data/CharacterGallery'
+import CharacterGallery from '../components/CharacterGallery'
 import { shallow } from 'enzyme'
 
 const setup = () => shallow(<CharacterGallery />)
